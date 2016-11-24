@@ -180,6 +180,9 @@ INSTALLED_APPS = (
     'tinymce',
     'utils',
     'oauthlib',
+    'edumetaapi',
+    'rest_framework',
+    'rest_framework.authtoken',
 )
 
 # A sample logging configuration. The only tangible logging

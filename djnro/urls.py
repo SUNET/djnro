@@ -21,4 +21,5 @@ urlpatterns = patterns(
     ),
     (r'^tinymce/', include('tinymce.urls')),
     url(r'^', include('edumanage.urls')),
+    url(r'^edumetaapi/', include('edumetaapi.urls')),
 )
