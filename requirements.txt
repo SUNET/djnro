@@ -8,3 +8,4 @@ requests==2.7.0
 wsgiref==0.1.2
 lxml>=2.3.2
 PyYAML>=3.10,<4.0a
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
